@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 3.10.73 Kernel Configuration
+# Linux/arm64 3.10.74 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -3022,7 +3022,8 @@ CONFIG_USB_PHY=y
 # CONFIG_USB_GPIO_VBUS is not set
 # CONFIG_USB_ISP1301 is not set
 CONFIG_USB_MSM_OTG=y
-# CONFIG_USB_MSM_ACA is not set
+CONFIG_USB_MSM_ACA=y
+CONFIG_USB_MSM_STANDARD_ACA=y
 CONFIG_USB_MSM_HSPHY=y
 CONFIG_USB_MSM_SSPHY=y
 CONFIG_USB_MSM_SSPHY_QMP=y
