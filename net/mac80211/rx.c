@@ -2026,9 +2026,6 @@ ieee80211_rx_h_mesh_fwding(struct ieee80211_rx_data *rx)
 	if (ieee80211_drop_unencrypted(rx, hdr->frame_control))
 		return RX_DROP_MONITOR;
 
-	if (ieee80211_drop_unencrypted(rx, hdr->frame_control))
-		return RX_DROP_MONITOR;
-
 	/* frame is in RMC, don't forward */
 	if (ieee80211_is_data(hdr->frame_control) &&
 	    is_multicast_ether_addr(hdr->addr1) &&
