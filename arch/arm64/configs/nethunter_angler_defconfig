@@ -1001,6 +1001,7 @@ CONFIG_IPC_ROUTER_SECURITY=y
 # Device Drivers
 #
 CONFIG_RTL8821AU=m
+CONFIG_RTL8188EUS=m
 
 #
 # Generic Driver Options
