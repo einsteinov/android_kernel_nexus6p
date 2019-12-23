@@ -1011,6 +1011,9 @@ struct rt2x00_dev {
 	 */
 	struct list_head bar_list;
 	spinlock_t bar_list_lock;
+
+	/* Extra TX headroom required for alignment purposes. */
+	unsigned int extra_tx_headroom;
 };
 
 struct rt2x00_bar_list_entry {
